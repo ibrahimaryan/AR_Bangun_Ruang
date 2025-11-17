@@ -15,7 +15,7 @@ git clone <link_repository>
 /Packages/*.tgz
 ```
 2. tutup project unity dulu
-3. ubah _manifest.json_
+3. ubah _/Packages/manifest.json_
 ```
 "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz"
 ```
@@ -24,3 +24,13 @@ jadi
 "com.ptc.vuforia.engine": "11.4.4"
 ```
 4. lalu push aja
+
+## Cara pull
+1. setelah pull dari github, tapi sebelum membuka project ubah lagi pada _/Packages/manifest.json_
+```
+"com.ptc.vuforia.engine": "11.4.4"
+```
+jadi (sesuaikan sesuai versi milik masing-masing)
+```
+"com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz"
+```
