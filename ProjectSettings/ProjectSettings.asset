@@ -163,6 +163,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.AR_Bangun_Ruang
+    Standalone: com.DefaultCompany.AR-Bangun-Ruang
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -850,7 +851,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: e8cccf25-9d0b-48ef-ae73-ea068c8ffab8
   framebufferDepthMemorylessMode: 0
