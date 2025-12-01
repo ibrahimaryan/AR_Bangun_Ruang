@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="kubus" size="200.000000 250.000000" />
+    <ImageTarget name="tabung" size="200.000000 250.000000" />
+    <ImageTarget name="kerucut" size="200.000000 250.000000" />
+    <ImageTarget name="bola" size="200.000000 250.000000" />
+    <ImageTarget name="balok" size="200.000000 250.000000" />
+  </Tracking>
+</QCARConfig>
