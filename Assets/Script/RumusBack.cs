@@ -7,6 +7,7 @@ public class RumusBack : MonoBehaviour
 {
     public void Back()
     {
+        AudioManager.Instance.PlayBackClick();
         SceneManager.LoadScene("Play");
     }
 }
